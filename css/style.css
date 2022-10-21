@@ -37,10 +37,11 @@ header {
     border: 0.2rem solid black;
     padding: 0.7rem;
     background-color:white;
+    border-radius: 10px;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     display:flex;
     align-items: center;
 }
@@ -57,6 +58,8 @@ footer {
     height:15%;
     flex-direction: row;
     justify-content: space-evenly;
+    position:fixed;
+    bottom:0;
 }
 
 ul, nav{
@@ -71,7 +74,7 @@ ul {
 }
 
 li {
-    width: 100%;
+    width: 80%;
     justify-content: space-around;
     margin: 3rem 0 0 0;
 }
@@ -84,4 +87,21 @@ h2 {
     border: 0.2rem solid black;
     padding: 0.7rem;
     background-color: white;
+    border-radius: 10px;
+}
+
+.pesquisa {
+    margin-top: 1rem;
+} 
+
+h3 {
+    font-size: 1.5rem
+}
+
+.texto {
+    font-size: 2rem;
+}
+
+nav{
+    justify-content: space-between;
 }
