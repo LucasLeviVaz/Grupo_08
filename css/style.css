@@ -57,7 +57,7 @@ main {
 footer {
     display:flex;
     width:100%;
-    height:15%;
+    height:10%;
     flex-direction: row;
     justify-content: space-evenly;
     position:fixed;
@@ -100,6 +100,7 @@ h2 {
 } 
 
 h3 {
+    width:80%;
     font-size: 1.5rem;
     padding: 0.7rem;
     font-family: 'Roboto', sans-serif;
@@ -124,10 +125,14 @@ nav {
 }
 
 .yt {
-
-    display: flex;
-    justify-content: center;
+    width:100%;
+    height:100%;
+    display:flex;
     align-items: center;
-    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
 
+.botao{
+    margin-bottom: 5rem;
 }
