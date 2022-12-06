@@ -106,6 +106,13 @@ h3 {
     font-family: 'Roboto', sans-serif;
 }
 
+.caixa1 {
+    width:90%;
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    font-family: 'Roboto', sans-serif;
+}
+
 .texto {
     background-color: white;
     border: 0.2rem solid black;
