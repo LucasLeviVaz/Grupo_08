@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
                 caixa1.innerHTML = "🔲"
                 a = 0
             }
-            console.log('fifiwf')
 
     
         })
@@ -33,7 +32,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
                 certinho.innerHTML = "🔲"
                 b = 0
             }
-            console.log('fifiwf')
 
     
         })
